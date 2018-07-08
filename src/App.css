@@ -31,10 +31,15 @@
   }
 }
 
+#game {
+  height: 100%;
+  width: 100%;
+}
+
 .game-board {
   display: grid;
-  grid-template-rows: 200px 200px 200px;
-  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 body {
