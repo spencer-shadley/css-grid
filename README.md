@@ -1,4 +1,4 @@
-Check out the app [here](https://codesandbox.io/s/k0l68wxk05])
+Check out the app [here](https://codesandbox.io/s/github/spencer-shadley/css-grid)
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
