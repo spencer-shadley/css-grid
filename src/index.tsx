@@ -11,9 +11,9 @@ function CreateBoxes(numBoxes: any): React.Component[] {
 }
 
 const App = () => (
-  <div class="game-board">
+  <div className="game-board">
     {CreateBoxes(9)}
-    <div class="container">
+    <div className="container">
       <header />
       <nav />
       <main />
