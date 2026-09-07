@@ -1,24 +1,25 @@
 {
-  "name": "my-app",
+  "name": "css-grid",
   "version": "0.1.0",
   "private": true,
-  "main": "src/index.tsx",
-  "dependencies": {
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-scripts-ts": "^3.1.0"
-  },
+  "type": "module",
   "scripts": {
-    "start": "react-scripts-ts start",
-    "build": "react-scripts-ts build",
-    "test": "react-scripts-ts test --env=jsdom",
-    "eject": "react-scripts-ts eject"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@types/jest": "^22.1.3",
-    "@types/node": "^9.4.6",
-    "@types/react": "16.0.38",
-    "@types/react-dom": "16.0.4",
-    "typescript": "^2.7.2"
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "jsdom": "^25.0.1",
+    "typescript": "^5.9.3",
+    "vite": "^6.4.3",
+    "vitest": "^3.2.6"
   }
 }

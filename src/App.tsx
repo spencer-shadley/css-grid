@@ -1,12 +1,13 @@
 import * as React from "react";
 import "./App.css";
 
-class Box extends React.Component {
-  constructor(props: any) {
-    super(props);
-  }
+interface BoxProps {
+  text?: number | string;
+}
+
+class Box extends React.Component<BoxProps> {
   render() {
-    return <div class="box">{this.props.text}</div>;
+    return <div className="box">{this.props.text}</div>;
   }
 }
 
